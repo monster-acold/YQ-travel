@@ -1,9 +1,7 @@
 <template>
-  <div class="container_main_page">
-    <div ref="basicMapbox" :style="mapSize"></div>
-    <!-- <Mapboxtest mapWidth="100%" mapHeight="600px"></Mapboxtest> -->
-    <h1>aowjefoaiwe</h1>
-  </div>
+  <div ref="basicMapbox" :style="mapSize"></div>
+  <!-- <Mapboxtest mapWidth="100%" mapHeight="600px"></Mapboxtest> -->
+  <h1>aowjefoaiwe</h1>
 </template>
 <script>
 import mapboxgl from 'mapbox-gl'
